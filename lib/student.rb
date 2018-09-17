@@ -42,7 +42,7 @@ class Student
      self.send("#{attr}=", value)
    end
    self
- end
+  end
 
   def self.all
 
