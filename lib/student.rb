@@ -1,3 +1,4 @@
+require 'pry'
 class Student
 
   attr_accessor :name, :location, :twitter, :linkedin, :github, :blog, :profile_quote, :bio, :profile_url
@@ -6,7 +7,7 @@ class Student
 
   def initialize(student_hash)
     @name=student_hash[:name]
-    , @location, @twitter, @linkedin, @github, @blog, @profile_quote, @bio, @profile_url=student[:name], student[:location]
+    #, @location, @twitter, @linkedin, @github, @blog, @profile_quote, @bio, @profile_url=student[:name], student[:location]
 
   end
 
