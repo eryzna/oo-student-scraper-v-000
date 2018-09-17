@@ -24,7 +24,7 @@ class Student
       #x[:name]=@name
       #x[:location]=@location
       binding.pry
-    #end
+    end
   end
     #Student.new(@name, @location)
 
