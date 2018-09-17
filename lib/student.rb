@@ -23,8 +23,9 @@ class Student
     students_array.map do |x|
       x[:name]=@name
       x[:location]=@location
-      Student.new(@name, @location)
+
     end
+    #Student.new(@name, @location)
 
 
 
