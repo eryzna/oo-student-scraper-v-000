@@ -21,7 +21,7 @@ class Student
 
   def self.create_from_collection(students_array)
     binding.pry
-    self.name=name
+    self.name=students_array[:name]
     self.location=location
 
   end
