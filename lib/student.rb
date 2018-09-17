@@ -21,8 +21,8 @@ class Student
 
   def self.create_from_collection(students_array)
     
-    self.name=students_array[:name]
-    self.location=location
+    #self.name=students_array[:name]
+    #self.location=location
 
   end
 
