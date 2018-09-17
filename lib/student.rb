@@ -7,6 +7,7 @@ class Student
 
   def initialize(student_hash)
     @name=student_hash[:name]
+    binding.pry
     #, @location, @twitter, @linkedin, @github, @blog, @profile_quote, @bio, @profile_url=student[:name], student[:location]
 
   end
