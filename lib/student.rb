@@ -20,7 +20,7 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    #students_array.map do |x|
+    students_array.map do |x|
       #x[:name]=@name
       #x[:location]=@location
       binding.pry
