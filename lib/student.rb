@@ -32,7 +32,7 @@ class Student
     #self.name=students_array[:name]
     #self.location=location
 
-  end
+
 
   def add_student_attributes#(attributes_hash)
    #attributes_hash.each do |attr, value|
