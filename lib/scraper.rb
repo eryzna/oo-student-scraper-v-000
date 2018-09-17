@@ -37,7 +37,7 @@ class Scraper
       end
     end
     student[:profile_quote]=doc.css(".profile-quote").text
-    cats=doc.css (".details-container").children
+    cats=doc.css (".details-container")
     binding.pry
   end
 end
