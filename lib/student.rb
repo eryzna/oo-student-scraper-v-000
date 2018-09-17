@@ -14,7 +14,7 @@ class Student
     @blog=student_hash[blog]
     @profile_quote=student_hash[:profile_quote]
     @profile_url=student_hash[:profile_url]
-    
+    @@all<<self
     #, @location, @twitter, @linkedin, @github, @blog, @profile_quote, @bio, @profile_url=student[:name], student[:location]
 
   end
