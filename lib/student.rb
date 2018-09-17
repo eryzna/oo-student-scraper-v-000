@@ -20,7 +20,8 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    self.new
+    binding.pry
+
 
     #self.name=students_array[:name]
     #self.location=location
