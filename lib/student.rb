@@ -23,8 +23,6 @@ class Student
     students_array.map do |x|
       x[:name]=@name
       x[:location]=@location
-    
-      end
     end
 
 
