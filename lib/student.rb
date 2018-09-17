@@ -23,6 +23,7 @@ class Student
     students_array.map do |x|
       x[:name]=@name
       x[:location]=@location
+      binding.pry
     end
   end
     #Student.new(@name, @location)
