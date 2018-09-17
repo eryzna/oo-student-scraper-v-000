@@ -40,6 +40,7 @@ class Scraper
     student[:bio]=doc.css("div.bio-content.content-holder div.description-holder p").text
     #profile_page.css("div.bio-content.content-holder div.description-holder p").text
     #binding.pry
+    student
   end
 end
 
