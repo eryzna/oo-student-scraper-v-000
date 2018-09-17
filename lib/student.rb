@@ -20,7 +20,10 @@ class Student
   end
 
   def self.create_from_collection(students_array)
-    binding.pry
+    students_array.map do |x|
+      binding.pry
+    end
+
 
 
     #self.name=students_array[:name]
